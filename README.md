@@ -66,8 +66,7 @@ import { schemaDialog } from  '@/schema/xxx.tsx' // 其他页面导入接口
 |  参数   | 类型  | 默认 | 描述 |
 |  ----  | ----  | ---- | ---- |
 | `entryPaths`  | `string[]` | `['src/views/*/*.vue']` | `Glob`路径语法
-| `otherPaths`  | `RegExp[]` | `[/\/schema\/[0-9a-zA-z]+\.tsx/]` | 
-其他文件路径的正则匹配
+| `otherPaths`  | `RegExp[]` | `[/\/schema\/[0-9a-zA-z]+\.tsx/]` | 其他文件路径的正则匹配
 | `importApiReg`  | `RegExp[]` | `[/\/api\//]` | 导入api模块路径
 
 
